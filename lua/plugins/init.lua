@@ -22,11 +22,7 @@ return {
       ensure_installed = {
         "lua-language-server",
         "stylua",
-        -- "html-lsp",
-        -- "css-lsp",
         "markdownlint",
-        -- "prettier",
-        "yapf",
         "python-lsp-server",
       },
     },
@@ -39,9 +35,7 @@ return {
         "vim",
         "lua",
         "vimdoc",
-        -- "html",
-        -- "css",
-        -- "python",
+        "python",
       },
     },
   },
@@ -58,6 +52,13 @@ return {
     },
     build = function()
       vim.fn["mkdp#util#install"]()
+    end,
+  },
+
+  {
+    "lewis6991/gitsigns.nvim",
+    config = function()
+      require "configs.gitsigns"
     end,
   },
 }
