@@ -65,4 +65,12 @@ return {
   {
     "tpope/vim-fugitive",
   },
+
+  {
+    "VonHeikemen/fine-cmdline.nvim",
+    lazy = false,
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+    },
+  },
 }
