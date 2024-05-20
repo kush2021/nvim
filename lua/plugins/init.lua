@@ -56,13 +56,6 @@ return {
   },
 
   {
-    "lewis6991/gitsigns.nvim",
-    config = function()
-      require "configs.gitsigns"
-    end,
-  },
-
-  {
     "tpope/vim-fugitive",
   },
 
@@ -72,6 +65,7 @@ return {
     dependencies = {
       "MunifTanjim/nui.nvim",
       "rcarriga/nvim-notify",
+      "tree-sitter/tree-sitter-regex",
     },
     config = function()
       require "configs.noice"

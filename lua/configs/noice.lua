@@ -14,4 +14,8 @@ local options = {
   },
 }
 
+vim.notify = require("noice").notify
+vim.lsp.handlers["textDocument/hover"] = require("noice").hover
+vim.lsp.handlers["textDocument/signatureHelp"] = require("noice").signature
+
 require("noice").setup(options)
