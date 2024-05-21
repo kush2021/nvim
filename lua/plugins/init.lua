@@ -9,6 +9,7 @@ return {
 
   -- These are some examples, uncomment them if you want to see them work!
   {
+    event = "BufEnter",
     "neovim/nvim-lspconfig",
     config = function()
       require("nvchad.configs.lspconfig").defaults()
@@ -22,8 +23,6 @@ return {
       ensure_installed = {
         "lua-language-server",
         "stylua",
-        "markdownlint",
-        "python-lsp-server",
       },
     },
   },
@@ -35,7 +34,6 @@ return {
         "vim",
         "lua",
         "vimdoc",
-        "python",
       },
     },
   },
@@ -56,6 +54,7 @@ return {
   },
 
   {
+    event = "BufWritePost",
     "tpope/vim-fugitive",
   },
 
@@ -73,6 +72,7 @@ return {
   },
 
   {
+    event = "BufEnter",
     "mfussenegger/nvim-dap",
     config = function()
       require "configs.dap"
@@ -80,6 +80,7 @@ return {
   },
 
   {
+    event = "BufEnter",
     "mfussenegger/nvim-lint",
     config = function()
       require "configs.lint"
