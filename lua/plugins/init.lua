@@ -71,4 +71,18 @@ return {
       require "configs.noice"
     end,
   },
+
+  {
+    "mfussenegger/nvim-dap",
+    config = function()
+      require "configs.dap"
+    end,
+  },
+
+  {
+    "mfussenegger/nvim-lint",
+    config = function()
+      require "configs.lint"
+    end,
+  },
 }

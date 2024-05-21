@@ -2,6 +2,7 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
     markdown = { "markdownlint" },
+    cpp = { "clang-format" },
   },
 
   format_on_save = {
