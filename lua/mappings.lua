@@ -5,11 +5,5 @@ require "nvchad.mappings"
 local map = vim.keymap.set
 
 map("i", "jk", "<ESC>")
-<<<<<<< Updated upstream
-map("n", "ˆ", "<M-i>")
 map("n", "<C-f>", "<C-f>zz")
 map("n", "<C-u>", "<C-u>zz")
-
--- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
-=======
->>>>>>> Stashed changes
