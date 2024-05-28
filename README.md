@@ -1,2 +1,2 @@
-# starter
-Starter config for NvChad
+# NeoVim Configuration
+Configuration for NeoVim. Started using NvChad. 
