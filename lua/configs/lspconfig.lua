@@ -19,4 +19,19 @@ lspconfig.pylsp.setup {
   on_attach = on_attach,
   on_init = on_init,
   capabilities = capabilities,
+  settings = {
+    pylsp = {
+      plugins = {
+        pycodestyle = {
+          enabled = false,
+        },
+        mccabe = {
+          enabled = false,
+        },
+        pyflakes = {
+          enabled = false,
+        },
+      },
+    },
+  },
 }
