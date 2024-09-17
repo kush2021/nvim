@@ -86,4 +86,9 @@ return {
       require "configs.lint"
     end,
   },
+
+  {
+    "github/copilot.vim",
+    lazy = false,
+  },
 }

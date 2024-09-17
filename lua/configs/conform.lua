@@ -4,7 +4,7 @@ local options = {
     markdown = { "markdownlint" },
     cpp = { "clang-format" },
     typescript = { "prettier" },
-    python = { "black" }
+    python = { "yapf" },
   },
 
   format_on_save = {
