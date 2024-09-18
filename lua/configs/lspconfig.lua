@@ -23,13 +23,8 @@ lspconfig.pylsp.setup {
     pylsp = {
       plugins = {
         pycodestyle = {
-          enabled = false,
-        },
-        mccabe = {
-          enabled = false,
-        },
-        pyflakes = {
-          enabled = false,
+          indent_size = 2,
+          ignore = { "E501", "E126" },
         },
       },
     },
