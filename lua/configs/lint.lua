@@ -10,7 +10,8 @@ local lint_progress = function()
   end
   return " " .. table.concat(linters, ", ")
 end
+lint_progress()
 require("lint").linters_by_ft = {
   cpp = { "cpplint" },
-  lint_progress(),
+  python = { "flake8" },
 }
