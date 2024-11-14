@@ -14,4 +14,5 @@ lint_progress()
 require("lint").linters_by_ft = {
   cpp = { "cpplint" },
   python = { "flake8" },
+  typescript = { "prettier" },
 }

@@ -4,6 +4,7 @@ local options = {
     lua = { "stylua" },
     cpp = { "clang-format" },
     python = { "yapf" },
+    typescript = { "prettier", "eslint_d" },
   },
   format_on_save = {
     timeout_ms = 500,
