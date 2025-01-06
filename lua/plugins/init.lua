@@ -63,4 +63,9 @@ return {
       { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
     },
   },
+
+  {
+    "mrcjkb/rustaceanvim",
+    lazy = false,
+  },
 }
