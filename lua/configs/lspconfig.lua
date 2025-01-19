@@ -1,6 +1,8 @@
+require("java").setup()
+
 require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
-local servers = { "clangd", "pylsp", "ts_ls" }
+local servers = { "clangd", "pylsp", "ts_ls", "jdtls" }
 local nvlsp = require "nvchad.configs.lspconfig"
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
