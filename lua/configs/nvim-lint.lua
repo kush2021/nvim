@@ -36,4 +36,5 @@ lint.linters.checkstyle = {
 
 lint.linters_by_ft = {
   java = { "checkstyle" },
+  c = { "cpplint" },
 }

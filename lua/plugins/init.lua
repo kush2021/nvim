@@ -31,6 +31,7 @@ return {
         "vimdoc",
         "bash",
         "regex",
+        "c",
       },
     },
   },

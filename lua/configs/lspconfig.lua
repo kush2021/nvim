@@ -15,3 +15,5 @@ require("lspconfig").jdtls.setup {
     },
   },
 }
+
+require("lspconfig").clangd.setup {}
