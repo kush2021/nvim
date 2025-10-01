@@ -6,20 +6,10 @@ return {
   },
 
   {
-    "nvim-java/nvim-java",
-    config = function()
-      require "configs.nvim-java"
-    end,
-  },
-
-  {
     "neovim/nvim-lspconfig",
     config = function()
       require "configs.lspconfig"
     end,
-    dependencies = {
-      "nvim-java/nvim-java",
-    },
   },
 
   {

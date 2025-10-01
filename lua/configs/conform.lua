@@ -1,7 +1,6 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    java = { "google-java-format" },
     c = { "clang-format" },
   },
 
